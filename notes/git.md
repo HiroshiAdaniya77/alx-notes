@@ -32,11 +32,11 @@ This allows each user to save a copy of the project to their system and share ch
 
 	> git add . (or) git add filename
 
-<u>It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it</u>
+<sub>It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it</sub>
 
 	> git commit -m "commit message"
 
-<u>Or if you have a lengthy description for a bug that you might have fixed</u>
+<sub>Or if you have a lengthy description for a bug that you might have fixed</sub>
 
 	> git commit (this will open your default code editor)
 
