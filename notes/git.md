@@ -32,12 +32,10 @@ This allows each user to save a copy of the project to their system and share ch
 
 	> git add . (or) git add filename
 
-<sub>It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it</sub>
-
+It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it
 	> git commit -m "commit message"
 
-<sub>Or if you have a lengthy description for a bug that you might have fixed</sub>
-
+Or if you have a lengthy description for a bug that you might have fixed
 	> git commit (this will open your default code editor)
 
 You'll write a short description no longer than 80 char, and then after that add s space and then the long description explaining the issue that was solved.
