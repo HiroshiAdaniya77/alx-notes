@@ -28,19 +28,19 @@ This allows each user to save a copy of the project to their system and share ch
 
 	> git init
 
-5. To stage changes in our project and save a screenshot of our work
+5. To stage changes in our project and save a screenshot of your work
 
 	> git add . (or) git add filename
 
-**It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it**
+<u>It is best practice to add the file individually or by pattern e.g git add *.txt or git add file*.txt, than git add . As this increases the file size of the repository and sometimes you don't want to add larger files to it</u>
 
 	> git commit -m "commit message"
 
-Or if you have a lengthy description for a bug that you might have fixed
+<u>Or if you have a lengthy description for a bug that you might have fixed</u>
 
 	> git commit (this will open your default code editor)
 
-You'll write a short description no longer than 80 char, and then after that your long description explaining the issue that was solved.
+You'll write a short description no longer than 80 char, and then after that add s space and then the long description explaining the issue that was solved.
 
 6. To track the status of our project and see any untracked files and commits
 
